@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.logo {
+  animation: logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.link {
+  color: #b318f0;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.start {
+    border: 1px solid red;
+    padding: 12px 20px;
+}
+.focus-circle {
+    position: absolute;
+    height: auto;
+    width: 100px;
+    animation: breath infinite 15s linear;
+    border-radius: 50%;
+    background-color: #18b6f4;
+}
+
+@keyframes breath {
+    0% {
+        width: 2vmin;
+        height: 2vmin;
+    }
+    50% {
+        width: 95vmin ;
+        height: 95vmin;
+    }
+    100% {
+        width: 2vmin;
+        height: 2vmin;
+    }
+}
